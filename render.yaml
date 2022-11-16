@@ -3,7 +3,6 @@ services:
   name: typesense
   env: docker
   repo: https://github.com/theclasscode/typesense.git
-  plan: starter
   healthCheckPath: /health
   disk:
     name: typesense-data
