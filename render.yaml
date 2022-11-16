@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: typesense
+  name: 'Staging: Typesense'
   env: docker
   repo: https://github.com/theclasscode/typesense.git
   healthCheckPath: /health
