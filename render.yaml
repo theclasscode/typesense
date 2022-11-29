@@ -5,7 +5,6 @@ services:
     env: docker
     repo: https://github.com/theclasscode/typesense.git
     plan: starter
-    previewPlan: free
     healthCheckPath: /health
     disk:
       name: typesense-data
@@ -24,7 +23,6 @@ services:
     env: docker
     repo: https://github.com/theclasscode/typesense.git
     plan: starter
-    previewPlan: free
     healthCheckPath: /health
     disk:
       name: typesense-data
