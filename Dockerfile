@@ -1,4 +1,4 @@
-FROM typesense/typesense:0.23.1
+FROM typesense/typesense:0.25.2
 
 
 EXPOSE 8108
